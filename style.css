@@ -4,8 +4,63 @@
     box-sizing: border-box;
 }
 
-#college {
-    font-size: 5em;
-    text-align: center;
-    height: 100vh;
+#body {
+    
 }
+
+#header {
+    display: flex;
+    justify-content: center;
+    height: 15vh;
+    width: 100vw;
+  }
+
+#middle {
+    display: flex;
+    flex-direction: row;
+    height: 70vh;
+    width: 100vw;
+  }
+
+  #school_information {
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    align-items: center;
+  }
+
+  #school_information h2 {
+   align-items: center;
+  }
+
+  #main {
+    display: flex;
+    flex-direction: row;
+    width: 50vw;
+  }
+
+  #courses {
+    display: flex;
+    flex-direction: column;
+    width: 25vw;
+}
+
+#courses h2 {
+    align-items: center;
+}
+
+#navbar {
+    display: flex;
+    align-items: right;
+    flex-direction: column;
+    width: 25vw;
+}
+
+#navbar input {
+    justify-content: right;
+}
+
+  #footer {
+    height: 15vh;
+        width: 100vw;
+  }
