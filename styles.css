@@ -1,0 +1,138 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: 'Eczar', serif;
+}
+b {
+  font-size: 25px;
+}
+
+h3 {
+  font-size: 28px;
+}
+h4 {
+  font-family: 'Eczar', serif;
+  padding: 3px;
+  font-size: 25px;
+  font-weight: lighter;
+}
+
+#app {
+  font-size: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+#header {
+  width: 100%;
+  text-align: center;
+  margin: 10px;
+}
+
+#main_content {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+
+}
+
+#info {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: 20px;
+}
+
+#courses {
+  font-family: 'Eczar', serif;
+  font-size: 30px;
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  margin: 20px;
+}
+.campus {
+  font-family: 'Eczar', serif;
+  background-color: rgb(231, 190, 4);
+  color: darkblue;
+  font-size: 45px;
+  width: 60%;
+}
+
+.nav-link {
+  font-family: 'Eczar', serif;
+  font-size: 25px;
+}
+
+#nav {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  margin: 20px;
+}
+
+.links {
+  text-align: center;
+  font-size: 30px;
+  background-color: rgb(17, 11, 95);
+  width: 285px;
+  height: 100px;
+  padding: 30px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  border-radius: 10px;
+  color:yellow;
+
+}
+
+.links:hover {
+  background: #ffbb01;
+  text-decoration: none;
+  color: darkblue;
+  font-size: 35px;
+  transition: all .03 ease-in-out;
+}
+
+.nav_wrapper {
+  display: flex;
+  flex-direction: column;
+  padding-left: 40%;
+}
+
+#filler {
+  padding: 10px;
+}
+
+#footer {
+  display: flex;
+  flex-direction: row;
+  
+}
+#img_footer {
+  opacity: 0.6;
+  height: 5%;
+  width: 20%;
+  margin-left: 20%;
+}
+
+.address {
+ text-align: center;
+ font-size: 25px;
+ margin-bottom: 20px;
+ font-weight: 700;
+}
+
+@media only screen and (width < 700px) {
+  h1 {
+      font-size: 50px;
+  }
+  #projects .project-tile {
+      height: 600px;
+      width: 100%;
+  }
+}
